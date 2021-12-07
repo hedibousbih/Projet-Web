@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read-more</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styleRM.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&family=Russo+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Open+Sans+Condensed:ital,wght@1,300&family=Oswald:wght@500&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="a.css">
+</head>
+<body>
+  <script src="contole.js">
+
+  </script>
+      <!-- header -->
+      <header>
+        <nav class = "navbar">
+          <div class = "container">
+            <a href = "index.html" ><img src="images/logo.png" alt="logo de Thalos" class="logo"></a>
+            <div class = "navbar-nav">
+              <a href = "">  home</a>
+              <a href = "">Cours</a>
+              <a href = "">blog</a>
+              <a href = "">about</a>
+            </div>
+          </div>
+        </nav>
+      
+      </header>
+      <section class = "title" id = "design">
+      
+    <div class="">
+        <i class="bx bx-upload"><input type="file" id="file" accept=".jpg, .jpeg, .png" ></i>
+
+       
+    </div>
+    <form method="post" onsubmit="return verif()">
+    <div class="">
+        <div class="title">
+            <div class="md-form amber-textarea active-amber-textarea-2">
+                <i class="fas fa-pencil-alt prefix"></i>
+                <textarea  class="md-textarea form-control" rows="3" style="margin: 0px; width: 308px; height: 74px;" name="titre" name="titre" id="titre"></textarea>
+                <label for="form24">Title </label>
+              </div>
+        </div>
+        <div class="title">
+            <div class="md-form amber-textarea active-amber-textarea-2">
+                <i class="fas fa-pencil-alt prefix"></i>
+                <textarea  class="md-textarea form-control" rows="3" style="margin: 0px; width: 788px; height: 408px;" name="contenu" id="contenu"></textarea>
+                <label for="form24">Article </label>
+              </div>
+        </div>
+    </div>
+
+    <div class="">
+        <input  class="btn dark publish-btn" type="submit">
+        <input type="file" accept="image/*" id="image-upload" hidden>
+        <label for="image-upload" class="">Upload Image</label>
+    </div>
+  </form>
+
+
+      </section>
+      
+      <footer>
+        <div class = "social-links">
+          <a href = "#"><i class = "fab fa-facebook-f"></i></a>
+          <a href = "#"><i class = "fab fa-twitter"></i></a>
+          <a href = "#"><i class = "fab fa-instagram"></i></a>
+          <a href = "#"><i class = "fab fa-pinterest"></i></a>
+        </div>
+        <span><b>Thalos</b> all Copyrights©2021</span>
+      </footer>
+      
+</body>
+</html>

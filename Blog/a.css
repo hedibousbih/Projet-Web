@@ -1,0 +1,41 @@
+
+  
+  .active-amber-textarea.md-form label.active {
+    color:rgb(33, 152, 207);
+  }
+  .amber-textarea textarea.md-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(33, 152, 207);
+    box-shadow: 0 0.5px 5px 1px rgb(33, 152, 207);
+  }
+  .amber-textarea.md-form .prefix.active {
+    color: rgb(33, 152, 207);
+  }
+  .active-amber-textarea.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: rgb(33, 152, 207);
+  }
+  
+  .active-amber-textarea-2 textarea.md-textarea {
+    border-bottom: 1px solid rgb(33, 152, 207);
+    box-shadow: 0 0.5px 5px 1px rgb(33, 152, 207);
+  }
+  .active-amber-textarea-2.md-form label.active {
+    color: rgb(33, 152, 207);
+  }
+  .active-amber-textarea-2.md-form label {
+    color: rgb(33, 152, 207);
+  }
+  .active-amber-textarea-2.md-form .prefix {
+    color: rgb(33, 152, 207);
+  }
+  .active-amber-textarea-2.md-form textarea.md-textarea:focus:not([readonly])+label {
+    color: rgb(33, 152, 207)
+  }
+  #textarea
+  {
+      width: 20px;
+      height: 20px;
+      inset-inline: middle;
+ 
+  }
+
+
