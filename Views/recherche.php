@@ -37,7 +37,7 @@
       <header>
         <nav class = "navbar">
           <div class = "container">
-            <a href = "index.html" ><img src="images/logo.png" alt="logo de Thalos" class="logo"></a>
+            <a href = "index.html" ><img src="../Blog/images/logo.png" alt="logo de Thalos" class="logo"></a>
             <div class = "navbar-nav">
               <a href = "">  home</a>
               <a href = "">Cours</a>
@@ -46,7 +46,16 @@
             </div>
           </div>
         </nav>
-      
+        <div class = "banner">
+        <div class = "container">
+          <form  action="../Views/recherche.php" method="GET">
+            <input type = "text" class = "search-input" placeholder="Quesque vous cherchez ?.."  name="search">
+            <button type = "submit" class = "search-btn"  value="search">
+              <i class = "fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
       </header>
 
       <section >
@@ -54,7 +63,8 @@
     <section >
       <div class = "container">
         <div class = "title">
-          <h2>Blog</h2>
+          <h2>resultat de recheche</h2>
+        
           <p>*****************</p>
         </div>
       
